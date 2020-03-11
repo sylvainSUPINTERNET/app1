@@ -1,0 +1,19 @@
+terraforme
+
+-> bucket S3
+-> azure function OR aws lambda (route poste pour communiquer avec les lambda) : framework serverless
+-> pour les deux routes post payload
+-> creer des tests
+
+// POST -> envoit une donnée à l'app 1 ou 2
+// GET -> history returns toutes les données reçu
+
+
+
+
+post : json
+message : "text"
+formattedMessage: "text"
+
+get : json
+["text","text"]
